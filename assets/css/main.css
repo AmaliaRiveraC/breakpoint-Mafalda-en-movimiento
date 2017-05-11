@@ -27,8 +27,63 @@
 .col-12{
   width: 100%;
 }
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+  
 @media (min-width: 1201px) and (orientation: landscape) {
-  div {
+ #contenedorImagen {
+   display: flex;
+  width: 1000px;
+  height: 800px;
+  border: 1px solid #000;
   background-image:url(../img/uno.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  } 
+}
+
+@media (max-width: 1200px) {
+  #contenedorImagen {
+  width: 600px;
+  height: 600px;
+  border: 1px solid #000;
+  background-image:url(../img/dos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: aqua;*
+}
+ 
+}
+
+
+@media (max-width: 768px) {
+  #contenedorImagen {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #000;
+  background-image:url(../img/tres.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: aqua;*
+}
+  
+}
+
+@media (max-width: 320px) {  
+ #contenedorImagen {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #000;
+  background-image:url(../img/cuatro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: aqua;*
 }
 }
+
